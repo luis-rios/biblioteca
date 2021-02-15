@@ -12,11 +12,11 @@ export default function Navbar(props){
             <ul className="nav-container" >
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Autores</a></li>
-                <li><a href="#">Series</a></li>
+                <li><a href="#">Sagas</a></li>
                 <li><a href="#">Paginas</a></li>                    
             </ul>
             <form>
-                <FontAwesomeIcon icon={faSearch} style={{paddingRight:'10px', fontSize:'30px'}}/>
+                <FontAwesomeIcon icon={faSearch} style={{paddingRight:'10px', fontSize:'30px', color:'white'}}/>
                 {/*<input className="input-search" type="search" placeholder="Buscar"/>
                 <button className="button-search">Buscar</button>*/}
             </form>            
