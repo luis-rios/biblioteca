@@ -1,0 +1,61 @@
+.home-container{    
+    padding-top: 1px;    
+    margin: 0px;
+    max-width: 100%;
+    height: 100%;
+    background-image: url('../images/learn.jpg');
+    background-size: cover;
+    
+    scroll-snap-type: initial;
+    
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 30px;
+    max-width: 100%;
+    margin: 10px 10px;
+    /*width: 100%;*/
+    height: 400px;    
+    background-color: lightcoral;
+    border-radius: 10px;
+    /*Estilos de la imagen*/
+    background-position-x: 0px;
+    background-position-y: -20px;
+    /*background-size: cover;*/ background-size: 200%;
+    background-repeat: no-repeat;
+    animation: movimiento 10s infinite linear alternate;
+
+    /*pseudo clase after #1*/
+    position: relative;
+
+}
+/*pseudo clase after #2*/
+.presentation::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*background-color: #0000007a;    */
+    /*background-color: #0672d0;*/
+    background-color: rgb(152, 197, 174);
+    opacity: 0.5;
+    z-index: 1;
+}
+.presentation h1{
+    z-index: 2;
+    color: honeydew;
+    font-size: 40px;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+
+
