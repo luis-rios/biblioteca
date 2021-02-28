@@ -50,19 +50,20 @@ export default class Item extends React.Component{
                 <div className="image"><img src={'img/' + this.state.image} width="100%" /></div>
                 <div className="title">{this.state.title}</div>
                 <div className="rating">
-                    <p>
+                    <h2 >
                     {this.state.stars.map(x =>
                         <img src='img/star.png' width='32' />
                     )}
-                    </p>
-                    Calificación: 
+                    
+                    </h2>
+                    <h6>Calificación: 
                     <select value={this.state.rating} onChange={this.onChangeRating}>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
-                    </select>
+                    </select></h6>
                 </div>
                 <div className="actions">
                     <button onClick={this.onremove}>Eliminar</button>

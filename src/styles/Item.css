@@ -5,6 +5,11 @@
     margin: 15px;
     width: 200px;
     vertical-align: top;
+    
+}
+.item h6{
+    color: rgb(93, 253, 133);
+    font-size: 20px;
 }
 .item .image img{
     height: 330px;
@@ -31,4 +36,7 @@
     font-weight: bold;
     padding: 5px;
     width: 100%;
+}
+.rating{
+  
 }

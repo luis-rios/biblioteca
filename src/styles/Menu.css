@@ -1,15 +1,19 @@
-.container{
-    background-color: rgb(19, 42, 71);
+.Container{    
+    width: 1320px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(0,0,0,0.15);
 
-    border-bottom: solid 1px #ccc;
-    padding: 10px;
-    margin: 0 auto;
+    
+    
+    
 }
-.container .subcontainer{
+.subcontainer{
     width: 800px;
     margin: 0 auto;
 }
-.container .subcontainer div{
+.subcontainer div{
     display: inline-block;
     vertical-align: middle;
 }
@@ -25,14 +29,25 @@
 }
 
 .search input{
-    width: calc(500px - 20px - 10px);
+    width: 480px;
     padding: 10px;
     font-size: 16px;
+    
 }
-.actions{
-    width: 150px;
+.action{
+    width: 180px;
+    
 }
-
+.button-action{
+    background-color: #0a58ca63;
+    color: white;
+    border-radius: 10px;
+}
+.button-action:hover{
+    color: cyan;
+    
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 .actions ul, .actions ul li{
     margin: 0;
     list-style: none;

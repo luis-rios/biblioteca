@@ -26,14 +26,14 @@ export default class Menu extends React.Component{
 
     render(){
         return(
-            <div className="container">
+            <div className="Container">
                 <div className="subcontainer">
                     <div className="logo">{this.props.title}</div>
                     <div className="search">
                         <Search onsearch={this.props.onsearch} />
                     </div>
-                    <div className="actions">
-                        <button onClick={this.add} className="button btn-blue">+ Añadir nuevo libro</button>
+                    <div className="action">
+                        <button onClick={this.add} className="button-action">+ Añadir nuevo libro</button>
                     </div>
                 </div>
                 {(this.state.newItemPanel)?
