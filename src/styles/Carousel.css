@@ -1,3 +1,53 @@
-.image01{
-    background-color: black;
+.carousel{
+    height: 500px;
+    width: 2000px;
+    margin-bottom: 10px;
+  
 }
+
+.container{
+height: 500px;
+margin-top: 0px;
+    
+
+    
+}
+img .image1{
+    width: 100px; 
+    height: 100px;
+   
+}
+
+img .image2{
+    width: 100px; 
+    height: 100px;
+
+}
+
+
+img .image3{
+    width: 150px;
+     height: 150px;
+}
+h3{
+    position: relative;
+    right: -180px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: rgb(166, 165, 236);
+    text-align:start;
+    padding-top:45px;
+    font-size: 15px;
+    background-color: blanchedalmond;
+    border: #fff 20px solid;
+   
+    height: 200px;
+    color: #000;
+    border-radius: .8em;
+    position: relative;
+    right: -180px;
+    
+}
+
